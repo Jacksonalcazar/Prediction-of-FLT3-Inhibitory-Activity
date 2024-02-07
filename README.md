@@ -1,5 +1,5 @@
 # Prediction-of-FLT3-Inhibitory-Activity
-This GitHub repository provides a script-based tool aimed at enhancing user experience by automating the prediction of pIC50 and IC50 values for any compound using its SMILES code. The model's reliability depends on the structural similarity of the target compound to the structures involved in its training. Designed to be user-friendly, this tool delivers results swiftly, within seconds."
+This GitHub repository provides a script-based tool aimed at enhancing user experience by automating the prediction of pIC<sub>50</sub> and IC<sub>50</sub> values for any compound using its SMILES code. The model's reliability depends on the structural similarity of the target compound to the structures involved in its training. Designed to be user-friendly, this tool delivers results swiftly, within seconds."
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ RUN.bat
 
 ## Classification Criteria
 
-The tool processes compound data by classifying their activity levels based on pIC50 values and categorizing the reliability of predictions according to the similarity scores. Below are the steps and criteria used for these classifications:
+The tool processes compound data by classifying their activity levels based on pIC<sub>50</sub> values and categorizing the reliability of predictions according to the similarity scores. Below are the steps and criteria used for these classifications:
 
 ### Activity Classification
 
