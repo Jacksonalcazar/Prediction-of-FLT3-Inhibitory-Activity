@@ -39,7 +39,7 @@ Activity levels are determined using the pIC<sub>50</sub> values as follows:
 
 ### Similarity and Reliability Categorization
 
-The similarity data is merged with the `results` DataFrame based on the compound `ID`. The similarity percentage is then used to categorize the reliability of the predictions:
+The similarity percentage is then used to categorize the reliability of the predictions:
 
 - **High Reliability**: Compounds with a similarity score of 80% or higher.
 - **Medium Reliability**: Compounds with a similarity score between 65% and 79%.
