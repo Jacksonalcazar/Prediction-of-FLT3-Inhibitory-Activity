@@ -25,6 +25,26 @@ git clone https://github.com/Jacksonalcazar/Prediction-of-FLT3-Inhibitory-Activi
 
 RUN.bat
 
+## Classification Criteria
+
+The tool processes compound data by classifying their activity levels based on pIC50 values and categorizing the reliability of predictions according to the similarity scores. Below are the steps and criteria used for these classifications:
+
+### Activity Classification
+
+Activity levels are determined using the `pIC50` values as follows:
+
+- **High Activity**: Compounds with a `pIC50` value of -2 or lower.
+- **Medium Activity**: Compounds with a `pIC50` value greater than -2 and up to -0.
+- **Low Activity**: Compounds with a `pIC50` value greater than -0.
+
+### Similarity and Reliability Categorization
+
+The similarity data is merged with the `results` DataFrame based on the compound `ID`. The similarity percentage is then used to categorize the reliability of the predictions:
+
+- **High Reliability**: Compounds with a similarity score of 80% or higher.
+- **Medium Reliability**: Compounds with a similarity score between 65% and 79%.
+- **Low Reliability**: Compounds with a similarity score below 65%.
+
 ## Support
 
 For any issues or questions, please open an issue in this repository, and we'll get back to you as soon as possible.
