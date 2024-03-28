@@ -33,9 +33,9 @@ The tool processes compound data by classifying their activity levels based on p
 
 Activity levels are determined using the pIC<sub>50</sub> values as follows:
 
-- **High Activity**: Compounds with ab pIC<sub>50</sub> value of -8 or lower.
-- **Medium Activity**: Compounds with a pIC<sub>50</sub> value greater than -8 and up to -6.
-- **Low Activity**: Compounds with a pIC<sub>50</sub> value greater than -6.
+- **High Activity**: Compounds with ab pIC<sub>50</sub> value of 8 or greater.
+- **Medium Activity**: Compounds with a pIC<sub>50</sub> value greater than 6 and up to 8.
+- **Low Activity**: Compounds with a pIC<sub>50</sub> value lower than 6.
 
 ### Similarity and Reliability Categorization
 
