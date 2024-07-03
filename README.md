@@ -21,6 +21,8 @@ To use this tool, follow these simple steps:
 
 git clone https://github.com/Jacksonalcazar/Prediction-of-FLT3-Inhibitory-Activity.git
 
+Or simply download the files to your device.
+
 2. Run the `RUN.bat` file.
 
 RUN.bat
