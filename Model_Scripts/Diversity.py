@@ -50,7 +50,7 @@ plt.show()
 total_molecules = sum(cluster_sizes)
 percentages = [(size / total_molecules) * 100 for size in cluster_sizes]
 
-# Export the x (Cluster ID), y (Cluster Size), and percentages to a CSV file with ';' delimiter
+# Export the x (Cluster ID), y (Cluster Size), and percentages
 cluster_data = pd.DataFrame({
     'Cluster ID': cluster_ids,
     'Cluster Size': cluster_sizes,
