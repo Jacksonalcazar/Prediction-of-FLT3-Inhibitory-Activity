@@ -46,13 +46,12 @@ def process_data(file_path, desired_columns):
 
 # Columns to keep and their order
 desired_columns = [
-    "ID", "SHBd", "MLFER_S", "nBase", "maxsssN", "MLFER_BH", "minssNH", "MDEN-23", 
-    "MLFER_BO", "MATS4e", "ATSC1c", "GATS4e", "MATS1v", "maxsCH3", "MATS4m", 
-    "ATSC1v", "MDEO-11", "AATSC1v", "ETA_dEpsilon_D", "MLFER_L", "MATS1c", "SdO", 
-    "WTPT-3", "ATSC4e", "AATSC4s", "GATS1c", "GATS1e", "WTPT-4", "WTPT-5", "C1SP3", 
-    "MATS4s", "AATSC4e", "MDEN-22", "ATSC4s", "ATSC4m", "AATS2i", "MLFER_E", "SpDiam_Dt", 
-    "SHAvin", "BCUTc-1h", "SaaN", "ETA_Beta_s", "GATS6p", "GATS6e", "SpMin1_Bhp", 
-    "MATS3s", "AMR", "GATS3c", "JGI5", "GATS1s"
+    "ID", "SHBd", "MLFER_S", "nBase", "maxsssN", "MLFER_BH", "minssNH", "MDEN-23",
+    "MATS4e", "ATSC1c", "GATS4e", "MATS1v", "maxsCH3", "MATS4m", "MDEO-11",
+    "ETA_dEpsilon_D", "MLFER_L", "MATS1c", "SdO", "WTPT-3", "AATSC4s", "GATS1e",
+    "WTPT-4", "WTPT-5", "C1SP3", "MATS4s", "MDEN-22", "AATS2i", "MLFER_E",
+    "SpDiam_Dt", "SHAvin", "BCUTc-1h", "SaaN", "ETA_Beta_s", "GATS6p", "GATS6e",
+    "SpMin1_Bhp", "MATS3s", "AMR", "GATS3c", "JGI5", "GATS1s"
 ]
 
 # Process the data
