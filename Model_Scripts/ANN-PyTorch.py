@@ -16,7 +16,7 @@ data = pd.read_csv('Data.csv', delimiter=';')
 data = data.dropna()
 
 # 2. Define features and target variable
-X = data.iloc[:, 3:-1].values
+X = data.iloc[:, 2:-1].values
 y = data.iloc[:, -1].values
 
 # 3. Split into training and testing sets
