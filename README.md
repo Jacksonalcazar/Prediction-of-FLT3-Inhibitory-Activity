@@ -3,15 +3,13 @@ This GitHub repository provides a script-based tool aimed at enhancing user expe
 
 ## Prerequisites
 
-Before running the tool, ensure you have Python installed on your system. You can download Python [here](https://www.python.org/downloads/).
+Before running the tool, ensure you have Python installed on your system. You can download Python 3.8 [here](https://repo.anaconda.com/miniconda/Miniconda3-py38_4.8.3-Windows-x86_64.exe).
 
 Additionally, you will need the following libraries:
-- pandas
+- scikit-learn
 - joblib
 
-You can install these libraries using the following command:
-
-pip install pandas joblib
+You can install these libraries by clicking on install_libraries.bat
 
 ## Getting Started
 
