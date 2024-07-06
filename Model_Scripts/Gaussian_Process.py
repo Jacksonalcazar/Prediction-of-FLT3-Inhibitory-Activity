@@ -9,7 +9,7 @@ import numpy as np
 data = pd.read_csv('Data.csv', delimiter=';')
 
 # 2. Define features and target variable
-X = data.iloc[:, 3:-1]
+X = data.iloc[:, 2:-1]
 y = data.iloc[:, -1]
 
 # 3. Split the data into training and testing sets
