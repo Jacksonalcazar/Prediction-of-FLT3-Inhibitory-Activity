@@ -1,7 +1,7 @@
 # Prediction-of-FLT3-Inhibitory-Activity
 This GitHub repository provides a script-based tool aimed at enhancing user experience by automating the prediction of pIC<sub>50</sub> and IC<sub>50</sub> values for any compound using its SMILES code. The model's reliability depends on the structural similarity of the target compound to the structures involved in its training. Designed to be user-friendly, this tool delivers results swiftly, within seconds."
 
-NOTE: This script is supported in the following article [https://doi.org/10.1186/s13321-023-00763-3](https://doi.org/10.1186/s13321-023-00763-3). If this tool is used, please cite article.
+NOTE: This script is supported in the following article [https://doi.org/10.3390/ph18010096](https://doi.org/10.3390/ph18010096). If this tool is used, please cite article.
 
 
 ## Prerequisites
